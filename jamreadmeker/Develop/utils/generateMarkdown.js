@@ -35,7 +35,20 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
 
+  ## Tests
+  ${data.test}
+
+  ## Questions
+  Here is my email for questions:
+  ${data.email}
+  If you would like to looks me up in github, here is my username:
+  ${data.username}
+  Follow these instructions to contact me:
+  ${data.questions}
+
+
   ## Badges
+
   `;
 }
 
