@@ -10,23 +10,23 @@ const questions = [
     { 
         type: 'input',
         name: 'title',
-        message: 'What is the title of your project?'
+        message: 'What is the Title of your project?'
 
     },
     {
         type: 'input',
         name: 'description',
-        message: 'Can you describe your project?'
+        message: 'Can you Description your project?'
     },
     {
         type: 'input',
         name: 'contents',
-        message: 'Do you have a table of contents'
+        message: 'Do you have a Table of Contents '
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Tell us how to install your program'
+        message: 'Tell us how to Install your program'
     },
     {
         type: 'input',
@@ -42,7 +42,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Licensed?',
-        choices: ['', 'phone', 'telekinesis']
+        choices: ["mit", "apache-2.0", "gpl-3.0", "gpl-2.0", "mpl-2.0", "isc", "none"]
     }
 ];
 
@@ -59,7 +59,8 @@ function writeToFile(results, data) {
 function init() {
     inquirer
     .prompt(questions)
-    .then(writeToFile)
+    .then((results, data)=> writeToFile(results,data))
+    
 }
 
 // Function call to initialize app
