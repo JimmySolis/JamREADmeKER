@@ -55,5 +55,7 @@
 
  ![Stringy](./img/stingInterpolation.png)
 
-
+![Tutorial](./img/Tutorial.png)
+Click link for video:
+(https://drive.google.com/file/d/1Nv-n9dKh7vi7jBvW7NZBUIHB45yvu3tm/view?usp=sharing)
   
