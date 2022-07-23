@@ -2,6 +2,8 @@
    
 ![license badge](https://img.shields.io/badge/license-mit-yellow)
 
+git repo : https://github.com/JimmySolis/JamREADmeKER
+
   ## Description
   This project makes README.md files. They take into consideration the Professional Standards and resemble their layout.
 
