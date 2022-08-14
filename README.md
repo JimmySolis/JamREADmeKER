@@ -1,11 +1,9 @@
-# JamREADmeKer - (ReadMe.md Maker) 
+# Nothing but Notes 
    
-![license badge](https://img.shields.io/badge/license-mit-yellow)
-
-git repo : https://github.com/JimmySolis/JamREADmeKER
+![license badge](https://img.shields.io/badge/license--yellow)
 
   ## Description
-  This project makes README.md files. They take into consideration the Professional Standards and resemble their layout.
+  This application was designed to jot down notes and save them through a server. It gives you the ability to take down some note on your phone and later see them in a different device. Simply write a note and safe it, or delete a note you don't have a need for.
 
   ## Table of Contents 
   - [Installation](#installation)
@@ -14,13 +12,18 @@ git repo : https://github.com/JimmySolis/JamREADmeKER
   - [License](#license) 
 
   ## Installation
-  Make a directory where you would like the README.md to be generated. Through command line make sure you have NPM installed, this will give you access to Inquier. If you dont have it yet install it. Once those criterias are met, simply navigate to the directory that has all of these files saved and type "node index.js".
+  There is no need to install any program. We have partnered up with Heroku. Here is to link to use in any web browser: https://nothing-but-notes.herokuapp.com/notes.
 
   ## Usage
-  Once here follow the promted text and and fill out to your best ablility. 
+  When you have arrived at the webpage click the button that will transfer you to the note page. Once there fill in a title for you note and write down what you want to note. Click the notes on the left and they will repear in the right. Make sure you dont forget to save a note before doing anthing else.  
 
   ## Credits
-  GT-BootCamp, Stanley Lewis, Staff, Tutors and Peers.
+  This app was made almost all possibly by myself. I did need to check in with some of my friends to make sure the delete worked and everything did work out in the end. 
+
+  
+
+  ## Tests
+  
 
   ## Questions
   Here is my email for questions:  jimmysolis14@gmail.com
@@ -28,36 +31,6 @@ git repo : https://github.com/JimmySolis/JamREADmeKER
   If you would like to look me up in github, here is my username: JimmySolis
   <br />
   Follow these instructions to contact me: <br />
-  Please Email me.
+  Please email me with any questions. I will respond in 24 hours.
 
-  ## Run Through
-
- 1)  Lets begin with the prompt that pops up:
-
-  ![Prompt](./img/thePrompt.png)
-
-  Once the program is downloaded, run node index.js. This will bring up these question.
-
- 2) 
-  ![QuestionsPic](./img/questionsArray.png)
-
- 3) In order to be able to access this we need to have node, inquire and our function in a different js file to work.
-
- ![Requirments](./img/applicationsNeeded.png)
-
- 4) Then we make node give use the ality to write a new file, in this case README.md. We pass the data collected through the generateMarkdown funcition.
-
- ![fs.write](./img/funtionToWrite.png)
-
- 5) If we look at the generateMarkdown funcition we can see we take the info to know if we should make a license section in the read me. 
- 
- ![generateM](./img/generatingMarkdown.png)
-
- 6) With in the same function we use string interpolation to plan out how the layout of the README.md file should look.
-
- ![Stringy](./img/stingInterpolation.png)
-
-![Tutorial](./img/Tutorial.png)
-Click link for video:
-(https://drive.google.com/file/d/1Nv-n9dKh7vi7jBvW7NZBUIHB45yvu3tm/view?usp=sharing)
   
